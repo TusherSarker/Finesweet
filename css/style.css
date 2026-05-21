@@ -1,0 +1,145 @@
+/* BASIC CSS */
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/* BODY PART */
+.home-container {
+  padding: 0 10rem;
+  background: #1c1e53;
+}
+
+/* HERO SECTION */
+.homeHero {
+  background: #1c1e53;
+}
+
+/* NAVBAR PART */
+.navbar {
+  padding: 1rem 0 !important;
+  background: #1c1e53 !important;
+}
+.navbar img {
+  cursor: pointer;
+}
+.navbar-all-items ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.navbar-all-items ul li a {
+  font-family: "Poppins", sans-serif;
+  color: #bbbbcb;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+.navbar-all-items ul li a:hover {
+  color: white;
+}
+.btn {
+  border: 2px solid #f4f6fc33 !important;
+  border-radius: 2.5625rem !important;
+  font-family: "Poppins", sans-serif;
+  color: #bbbbcb;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding: 1rem 3rem;
+  margin-left: 1rem;
+  transition: 600ms ease !important;
+}
+.btn:hover {
+  background: #bbbbcb !important;
+  border: 2px solid #f4f6fc33 !important;
+}
+
+/* HERO CONTENT */
+.row {
+  padding: 7.875rem 0;
+  justify-content: space-between !important;
+}
+
+.first-col {
+  padding-right: 7.5rem;
+}
+.col img {
+  width: 100%;
+  object-fit: cover;
+}
+.hero-heading-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3.375rem;
+  line-height: 4.625rem;
+  color: white;
+}
+.hero-subheading-normal {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: white;
+  margin: 1.75rem 0;
+}
+.hero-btns {
+  display: flex;
+  gap: 2rem;
+  align-items: end;
+}
+.hero-btns .btn {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  background: #fcd980;
+  color: #1b1c2b;
+  margin-left: 0;
+  border: 2px solid #fcd980;
+  margin-top: 1.75rem;
+}
+.hero-btns .btn:hover {
+  background: transparent !important;
+  border: 2px solid #fcd980 !important;
+  color: #bbbbcb;
+}
+
+.hero-btns div a {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  line-height: 1.75rem !important;
+  color: white !important;
+  cursor: pointer;
+}
+.hero-btns .fa-solid {
+  color: white !important;
+  margin-left: 0.5rem;
+}
+
+/* ARROW ANIMATION */
+.pricing-arrow {
+  transition:
+    transform 0.8s ease-in-out,
+    opacity 0.8s ease-in-out !important;
+  display: inline-block;
+}
+
+.view-pricing-container:hover .pricing-arrow {
+  animation: arrowShootToTenRem 1s ease-in-out forwards;
+}
+
+@keyframes arrowShootToTenRem {
+  0% {
+    transform: translateX(0rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+}
