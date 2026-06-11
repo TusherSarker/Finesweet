@@ -1,0 +1,314 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN (MEDIA QUERIES)
+   ========================================================================== */
+
+/* Extra Large Devices (1200px to 1399px) */
+@media (max-width: 1399px) {
+  .home-container {
+    padding: 0 6rem;
+  }
+  
+  .row {
+    padding: 6rem 0;
+  }
+  
+  .hero-heading-bold {
+    font-size: 3rem;
+    line-height: 4.25rem;
+  }
+  
+  .inquiry-left-col {
+    padding-left: 6rem !important;
+    padding-right: 3rem !important;
+  }
+  
+  .inquiry-right-col {
+    padding-left: 3rem !important;
+    padding-right: 6rem !important;
+  }
+}
+
+/* Large Devices (992px to 1199px) */
+@media (max-width: 1199px) {
+  .home-container {
+    padding: 0 4.5rem;
+  }
+  
+  .row {
+    padding: 5rem 0;
+  }
+  
+  .hero-heading-bold {
+    font-size: 2.75rem;
+    line-height: 3.75rem;
+  }
+  
+  .inquiry-left-col {
+    padding-left: 4.5rem !important;
+    padding-right: 2.25rem !important;
+  }
+  
+  .inquiry-right-col {
+    padding-left: 2.25rem !important;
+    padding-right: 4.5rem !important;
+  }
+}
+
+/* Medium Devices (768px to 991px) */
+@media (max-width: 991px) {
+  .navbar {
+    background-color: #1c1e53 !important;
+  }
+  
+  .navbar-collapse {
+    background-color: #161842 !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 8px;
+    margin-top: 10px !important;
+  }
+  
+  .navbar-all-items ul {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0 !important;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 10px 0 !important;
+    width: 100%;
+  }
+  
+  .nav-contact-btn {
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+    display: inline-block !important;
+    text-align: center;
+  }
+
+  .home-container {
+    padding: 0 3rem;
+  }
+  
+  .row {
+    padding: 4rem 0;
+  }
+  
+  .hero-heading-bold {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+  }
+  
+  .work-heading, 
+  .projects-title, 
+  .features-title {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+  }
+  
+  .inquiry-left-col {
+    padding: 5rem 3rem !important;
+    min-height: auto;
+  }
+  
+  .inquiry-right-col {
+    padding: 5rem 3rem !important;
+    min-height: auto;
+  }
+  
+  .inquiry-left-heading {
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+  }
+  
+  .testimonial-heading, 
+  .faq-heading {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+  
+  .testimonial-right-col, 
+  .faq-right-col {
+    padding-left: 0 !important;
+    margin-top: 2.5rem;
+  }
+  
+  .footer-left-col {
+    margin-bottom: 2.5rem;
+  }
+  
+  .footer-right-col {
+    padding-left: 0 !important;
+  }
+}
+
+/* Small Devices (576px to 767px) */
+@media (max-width: 767px) {
+  .home-container {
+    padding: 0 2rem;
+  }
+  
+  .row {
+    padding: 3.5rem 0;
+  }
+  
+  .hero-heading-bold {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+  }
+  
+  .work-heading, 
+  .projects-title, 
+  .features-title {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+  }
+  
+  .inquiry-left-col {
+    padding: 4rem 2rem !important;
+  }
+  
+  .inquiry-right-col {
+    padding: 4rem 2rem !important;
+  }
+  
+  .inquiry-left-heading {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+  }
+  
+  .testimonial-quote {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faq-question, 
+  .faq-number {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  .faq-answer {
+    padding-left: 0;
+  }
+  
+  .faq-item {
+    padding: 1.5rem 0;
+  }
+  
+  .footer-heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  
+  .footer-nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem !important;
+  }
+}
+
+/* Extra Small Devices (320px to 575px) */
+@media (max-width: 575px) {
+  .home-container {
+    padding: 0 1rem;
+  }
+  
+  .row {
+    padding: 3rem 0;
+  }
+  
+  .hero-heading-bold {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+  
+  .hero-subheading-normal {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+    margin: 1.25rem 0;
+  }
+  
+  .hero-btns {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 1.25rem !important;
+    width: 100%;
+  }
+  
+  .hero-btns .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.875rem 2rem !important;
+    margin-top: 0 !important;
+  }
+  
+  .view-pricing-container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-heading, 
+  .projects-title, 
+  .features-title {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+  
+  .work-description {
+    margin: 0.75rem 0 1.5rem 0;
+  }
+  
+  .feature-card {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .inquiry-left-col {
+    padding: 3.5rem 1.25rem !important;
+  }
+  
+  .inquiry-right-col {
+    padding: 3.5rem 1.25rem !important;
+  }
+  
+  .inquiry-left-heading {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+  
+  .inquiry-right-heading {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+  
+  .inquiry-input {
+    padding: 0.875rem 1.25rem !important;
+  }
+  
+  .btn-inquiry {
+    padding: 0.875rem 2rem !important;
+  }
+  
+  .testimonial-heading, 
+  .faq-heading {
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+  }
+  
+  .testimonial-quote {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  .footer-heading {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+  
+  .footer-contact-card {
+    padding: 1.5rem;
+  }
+}
