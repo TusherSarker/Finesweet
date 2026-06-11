@@ -208,6 +208,34 @@
   }
 }
 
+/* Small-screen overlay & inquiry fixes */
+@media (max-width: 767px) {
+  /* Make horizontal overlay cover full width and disable hover transform */
+  .overlay-card-horizontal .image-overlay {
+    width: 100% !important;
+    transform: none !important;
+  }
+
+  .overlay-card-horizontal:hover .image-overlay {
+    transform: none !important;
+  }
+
+  /* Stack/hide decorative right overlay to avoid overlapping content */
+  .right-image-overlay {
+    position: static !important;
+    height: auto !important;
+    display: none !important;
+  }
+
+  /* Ensure inquiry columns don't keep large fixed heights on small screens */
+  .inquiry-left-col,
+  .inquiry-right-col {
+    min-height: auto !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+}
+
 /* Extra Small Devices (320px to 575px) */
 @media (max-width: 575px) {
   .home-container {
@@ -310,5 +338,26 @@
   
   .footer-contact-card {
     padding: 1.5rem;
+  }
+
+  /* Reinforce overlay and inquiry fixes for very small screens */
+  .overlay-card-horizontal .image-overlay {
+    width: 100% !important;
+    transform: none !important;
+  }
+
+  .overlay-card-horizontal:hover .image-overlay {
+    transform: none !important;
+  }
+
+  .right-image-overlay {
+    display: none !important;
+  }
+
+  .inquiry-left-col,
+  .inquiry-right-col {
+    min-height: auto !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
   }
 }
